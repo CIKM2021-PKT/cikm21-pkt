@@ -11,12 +11,14 @@ You can run each model easily with the instructions below.
 You can run DKT model by the following command.
 
 ```
-cd DKT
+cd models/DKT
 python -u main.py --dataset codeforces --batch_size XX --init_lr XX --weight_decay xx
 ```
 
 `batch_size`: The size of a batch.
+
 `init_lr`: The learning rate.
+
 `weight_decay`: The regularization term.
 
 
@@ -26,11 +28,12 @@ python -u main.py --dataset codeforces --batch_size XX --init_lr XX --weight_dec
 You can run GGNN-concat by the following command.
 
 ```
-cd GGNN-concat
+cd models/GGNN-concat
 python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_decay xx --num_nodes xx --node_embed_dim xx
 ```
 
 `num_nodes`: The number of randomly selected graph nodes.
+
 `node_embed_dim`: The embedding dimension of graph nodes.
 
 
@@ -40,7 +43,7 @@ python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_dec
 You can run GGNN-attn by the following command.
 
 ```
-cd GGNN-attn
+cd models/GGNN-attn
 python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_decay xx --num_nodes xx --node_embed_dim xx --concept_embed_dim xx
 ```
 
@@ -53,7 +56,7 @@ python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_dec
 You can run code2vec-concat by the following command.
 
 ```
-cd code2vec-cocnat
+cd models/code2vec-concat
 python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_decay xx --codevec_size xx --np xx
 ```
 
@@ -66,7 +69,7 @@ python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_dec
 You can run code2vec-attn by the following command.
 
 ```
-cd code2vec-attn
+cd models/code2vec-attn
 python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_decay xx --codevec_size xx --np xx --concept_embed_dim xx
 ```
 
@@ -79,7 +82,7 @@ python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_dec
 You can run ASTNN-concat by the following command.
 
 ```
-cd ASTNN-concat
+cd models/ASTNN-concat
 python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_decay xx --max_len xx
 ```
 
@@ -92,7 +95,7 @@ python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_dec
 You can run ASTNN-attn by the following command.
 
 ```
-cd ASTNN-attn
+cd models/ASTNN-attn
 python -u main.py --dataset codeforces --batch_size xx --init_lr xx --weight_decay xx --max_len xx --concept_embed_dim xx
 ```
 
